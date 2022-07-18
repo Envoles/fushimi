@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Ma page test</title>
+    <meta charset="utf-8" />
+    <title>silentio</title><link rel="stylesheet" href="//brick.freetls.fastly.net/Old+Standard:400,700,400i/Alegreya+Sans:200,400,700,900,200i,400i,700i,900i" />
+    
+    <style type="text/css">
+      body { 
+      	font: 15px/1.5 Alegreya Sans, sans-serif;
+      	padding: 0;
+      	margin: 0;
+      	display: flex;
+      }
+      aside {
+      	width: 25%;
+      	background: #625560;
+      	height: 100vh;
+      }
+      main {
+      	padding: 150px;
+      	display: flex;
+      	flex-direction: column;
+      }
+      main > div {
+      	margin: auto;
+      }
+      #icon, #icon img {
+      	width: 170px;
+      	height: 170px;
+      	border-radius: 50%;
+      }
+      #icon {
+        position: absolute;
+      	left: calc(25% - 85px);
+      }
+      #icon img {      
+        border: 16px solid #FFF;
+      }
+      dl * {
+      	display: inline-block;
+      }
+      dt {
+        margin: 2px;
+      	padding: 2px 4px;
+      	border-radius: 4px;
+      	background: linear-gradient(90deg, rgb(180 172 177) 0%, rgb(159 144 143) 100%);
+      	line-height: 1;
+      }
+      dd {
+        margin: 2px 10px 2px 2px;
+      	padding: 2px;
+      	line-height: 1;
+      }
+      main p {
+      	text-align: justify;
+      	max-width: 450px;
+      }
+      
+      h1 {
+        font: italic 60px/1 Old Standard, serif;
+        margin: 0;
+      }
+      
+    </style>
   </head>
   <body>
-    <p>Voici ma page !</p>
+    <aside></aside>
+    <main>
+      <div>
+        <div id="icon">
+          <div><img src="https://i.goopics.net/prvis2.png" /></div>
+        </div>
+        <h1>silentio</h1>
+        <dl>
+          <dt>name</dt> <dd>theo</dd>
+          <dt>pronouns</dt> <dd>any</dd>
+          <dt>age</dt> <dd>25+</dd>
+        </dl>
+        <p>Sed at mauris vestibulum, lacinia dui nec, tincidunt magna. Integer porta, arcu sollicitudin laoreet aliquet, nulla lorem fringilla sem, faucibus porta tortor sapien id sapien. Ut sem elit, pretium ut nibh ac, elementum porta ante. Nam placerat orci sapien, id scelerisque urna porttitor quis. Phasellus tempor vehicula sapien vel posuere. Nulla consequat sagittis vulputate. Sed et mi faucibus, interdum orci sed, sodales massa. Etiam sit amet iaculis mi. Nulla neque eros, pellentesque vel nisl sit amet, malesuada imperdiet ante. In vel ex porta, aliquam purus non, interdum lacus. </p>
+            </div>
+    </main>
   </body>
 </html>
